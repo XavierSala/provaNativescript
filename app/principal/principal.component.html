@@ -1,0 +1,9 @@
+<StackLayout orientation="vertical">
+    <Image src="~/imatges/hat.png"></Image>
+    <Label  [text]="nom" textWrap="true"></Label>
+    <TextField hint="Entra el teu nom"[(ngModel)]="nom" ></TextField>
+    <StackLayout orientation="horizontal">
+        <Button text="Saluda" (tap)="onSaluda()"></Button>
+        <Button text="Seguent" (tap)="onSeguent()"></Button>
+    </StackLayout>
+</StackLayout>
