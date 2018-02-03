@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-principal',
   moduleId: module.id,
-  templateUrl: `./principal.component.html`
+  templateUrl: `./principal.component.html`,
+  styleUrls: [ './principal.component.css']
 })
 export class PrincipalComponent {
 
@@ -14,7 +15,7 @@ export class PrincipalComponent {
   }
 
   onSaluda() {
-
+    
   }
 
   onSeguent() {
