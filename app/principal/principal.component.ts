@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterExtensions } from 'nativescript-angular/router';
 var dialogs = require("ui/dialogs");
 
 @Component({
@@ -11,8 +12,9 @@ export class PrincipalComponent {
 
   nom: string
 
-  constructor() {
-    this.nom = "Hola";
+  constructor(
+    private router: RouterExtensions ) {
+    this.nom = "Filomeno";
   }
 
   onSaluda() {
@@ -29,6 +31,9 @@ export class PrincipalComponent {
       resultat => {
         if (resultat == true) {
           console.log("Ha dit que si");
+
+          this.router.navigate(["/seguent"], {clearHistory: false})
+
         } else {
           console.log("Ha dit que no");
         }

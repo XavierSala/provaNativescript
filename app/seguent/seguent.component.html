@@ -1,0 +1,5 @@
+<StackLayout orientation="vertical">
+    <Label text="Benvinguts a la pagina següent" textWrap="true"></Label>
+    <Button text="Tornar" (tap)="tornar()"></Button>
+    <Button text="Anar a Principal" [nsRouterLink]="['/principal']" class="link"></Button>
+</StackLayout>

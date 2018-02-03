@@ -4,6 +4,7 @@ import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
 import { PrincipalComponent } from "./principal/principal.component";
+import { SeguentComponent } from './seguent/seguent.component';
 
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
@@ -21,7 +22,8 @@ import { NativeScriptFormsModule } from "nativescript-angular/forms";
     ],
     declarations: [
         AppComponent,
-        PrincipalComponent
+        PrincipalComponent,
+        SeguentComponent
     ],
     providers: [
         
