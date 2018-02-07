@@ -43,5 +43,5 @@ Les etiquetes per seguir la classe són:
 
 Per canviar el codi a una etiqueta ... 
 
-    git tag Dialegs
+    git checkout Dialegs
 
