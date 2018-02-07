@@ -29,3 +29,19 @@ En IOS es semblant (però cal estar en un Mac i tenir XCode)
 
     tns run ios
 
+Seguiment de la classe
+---------------------------
+
+Les etiquetes per seguir la classe són: 
+
+| Etiqueta | Què?                                                                       |
+| -------- | -------------------------------------------------------------------------- |
+| Divendres | Creació de la primera pantalla, binding unidireccional i bidireccional    |
+| CSS       | Estilització de l'aspecte dels controls amb CSS (es poden fer animacions) |
+| Dialegs   | Mostrar i usar quadres de diàleg                                          |
+| Navegacio | Crear una pàgina nova i navegació entre pàgines (amb codi i enllaços)     |
+
+Per canviar el codi a una etiqueta ... 
+
+    git tag Dialegs
+
